@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{14806D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayeredMvcDemo.Domain", "LayeredMvcDemo.Domain\LayeredMvcDemo.Domain.csproj", "{6D982E7D-D857-4C16-B0B3-0F61025637E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayeredMvcDemo.DataAccess", "LayeredMcpDemo.DataAccess\LayeredMvcDemo.DataAccess.csproj", "{E603B95E-1C78-49BA-98B0-D02139131BCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayeredMvcDemo.DataAccess", "LayeredMvcDemo.DataAccess\LayeredMvcDemo.DataAccess.csproj", "{E603B95E-1C78-49BA-98B0-D02139131BCC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayeredMvcDemo.Application", "LayeredMvcDemo.Application\LayeredMvcDemo.Application.csproj", "{D4D908DD-E9B4-401B-BCBA-F312FD622177}"
 EndProject

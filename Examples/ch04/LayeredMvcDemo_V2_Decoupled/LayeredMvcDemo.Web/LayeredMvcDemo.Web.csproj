@@ -138,13 +138,13 @@
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LayeredMcpDemo.DataAccess\LayeredMvcDemo.DataAccess.csproj">
-      <Project>{e603b95e-1c78-49ba-98b0-d02139131bcc}</Project>
-      <Name>LayeredMvcDemo.DataAccess</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LayeredMvcDemo.Application\LayeredMvcDemo.Application.csproj">
       <Project>{d4d908dd-e9b4-401b-bcba-f312fd622177}</Project>
       <Name>LayeredMvcDemo.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LayeredMvcDemo.DataAccess\LayeredMvcDemo.DataAccess.csproj">
+      <Project>{e603b95e-1c78-49ba-98b0-d02139131bcc}</Project>
+      <Name>LayeredMvcDemo.DataAccess</Name>
     </ProjectReference>
     <ProjectReference Include="..\LayeredMvcDemo.Domain\LayeredMvcDemo.Domain.csproj">
       <Project>{6d982e7d-d857-4c16-b0b3-0f61025637e5}</Project>

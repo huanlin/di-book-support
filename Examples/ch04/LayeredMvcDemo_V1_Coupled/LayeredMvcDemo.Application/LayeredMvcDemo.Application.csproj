@@ -46,7 +46,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LayeredMcpDemo.DataAccess\LayeredMvcDemo.DataAccess.csproj">
+    <ProjectReference Include="..\LayeredMvcDemo.DataAccess\LayeredMvcDemo.DataAccess.csproj">
       <Project>{e603b95e-1c78-49ba-98b0-d02139131bcc}</Project>
       <Name>LayeredMvcDemo.DataAccess</Name>
     </ProjectReference>
