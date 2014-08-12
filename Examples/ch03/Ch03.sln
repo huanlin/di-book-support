@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C99F2D99-2879-4A69-BF45-1522A9C54716}"
+	ProjectSection(SolutionItems) = preProject
+		..\DiExamples.vsmdi = ..\DiExamples.vsmdi
+		..\Local.testsettings = ..\Local.testsettings
+		..\TraceAndTestImpact.testsettings = ..\TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6C1FA722-1F61-4AFF-8141-9E136B75D70B}"
+	ProjectSection(SolutionItems) = preProject
+		..\.nuget\NuGet.Config = ..\.nuget\NuGet.Config
+		..\.nuget\NuGet.exe = ..\.nuget\NuGet.exe
+		..\.nuget\NuGet.targets = ..\.nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch03.MyDIContainerV1", "Ch03.MyDIContainerV1\Ch03.MyDIContainerV1.csproj", "{859BDF29-C402-40D1-8D39-2D1B0DEED493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch03.Common", "Ch03.Common\Ch03.Common.csproj", "{5F6FF2D6-30ED-4B14-90E8-A4E35E61785E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch03.MyDIContainerV2", "Ch03.MyDIContainerV2\Ch03.MyDIContainerV2.csproj", "{BEB4F4FF-1FB1-43FE-B224-3E12B8E79F0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch03.TestObjectLifetime", "Ch03.TestObjectLifetime\Ch03.TestObjectLifetime.csproj", "{994C5118-D220-4CF4-AB1F-326439067025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch03.UnityInterception", "Ch03.UnityInterception\Ch03.UnityInterception.csproj", "{B929267D-1395-43DD-BFD2-88EEA9F7D07A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{859BDF29-C402-40D1-8D39-2D1B0DEED493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{859BDF29-C402-40D1-8D39-2D1B0DEED493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{859BDF29-C402-40D1-8D39-2D1B0DEED493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{859BDF29-C402-40D1-8D39-2D1B0DEED493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6FF2D6-30ED-4B14-90E8-A4E35E61785E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6FF2D6-30ED-4B14-90E8-A4E35E61785E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6FF2D6-30ED-4B14-90E8-A4E35E61785E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6FF2D6-30ED-4B14-90E8-A4E35E61785E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB4F4FF-1FB1-43FE-B224-3E12B8E79F0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB4F4FF-1FB1-43FE-B224-3E12B8E79F0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB4F4FF-1FB1-43FE-B224-3E12B8E79F0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB4F4FF-1FB1-43FE-B224-3E12B8E79F0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{994C5118-D220-4CF4-AB1F-326439067025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{994C5118-D220-4CF4-AB1F-326439067025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{994C5118-D220-4CF4-AB1F-326439067025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{994C5118-D220-4CF4-AB1F-326439067025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B929267D-1395-43DD-BFD2-88EEA9F7D07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B929267D-1395-43DD-BFD2-88EEA9F7D07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B929267D-1395-43DD-BFD2-88EEA9F7D07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B929267D-1395-43DD-BFD2-88EEA9F7D07A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DiExamples.vsmdi
+	EndGlobalSection
+EndGlobal
