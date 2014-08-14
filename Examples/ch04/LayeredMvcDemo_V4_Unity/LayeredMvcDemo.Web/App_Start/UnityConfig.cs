@@ -40,7 +40,7 @@ namespace LayeredMvcDemo.Web.App_Start
 
             // 在此註冊你的型別。
             container.RegisterType<ICustomerService, CustomerService>();
-            container.RegisterType<SouthwindContext, SouthwindContext>(new PerRequestLifetimeManager());
+            container.RegisterType<SouthwindContext>(new PerRequestLifetimeManager());
         }
     }
 }
