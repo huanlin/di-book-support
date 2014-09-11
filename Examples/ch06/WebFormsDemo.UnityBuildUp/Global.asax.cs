@@ -17,7 +17,7 @@ namespace WebFormsDemo.UnityBuildUp
             Application["Container"] = container; // 把容器物件保存在共用變數裡
 
             // 註冊型別
-            container.RegisterType<IHelloService, HelloService>();
+            container.RegisterType<IMessageService, MessageService>();
         }
     }
 }

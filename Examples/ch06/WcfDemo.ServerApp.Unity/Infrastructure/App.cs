@@ -18,7 +18,7 @@ namespace WcfDemo.ServerApp.Unity.Infrastructure
 
         private static void ConfigUnity(IUnityContainer container)
         {
-            container.RegisterType<IHelloService, HelloService>();
+            container.RegisterType<IMessageService, MessageService>();
             container.RegisterType<IService1, Service1>();
         }
 

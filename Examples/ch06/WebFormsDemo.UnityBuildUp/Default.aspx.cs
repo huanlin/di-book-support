@@ -12,7 +12,7 @@ namespace WebFormsDemo.UnityBuildUp
     public partial class Default : System.Web.UI.Page
     {
         [Dependency]
-        public IHelloService HelloService { get; set; }
+        public IMessageService HelloService { get; set; }
 
         protected void Page_Load(object sender, EventArgs e)
         {

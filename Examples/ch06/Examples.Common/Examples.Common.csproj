@@ -44,8 +44,8 @@
     <Compile Include="DecoratedLogger.cs" />
     <Compile Include="ILogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\HelloService.cs" />
-    <Compile Include="Services\IHelloService.cs" />
+    <Compile Include="Services\MessageService.cs" />
+    <Compile Include="Services\IMessageService.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

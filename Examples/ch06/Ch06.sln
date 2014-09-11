@@ -30,6 +30,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{284251
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5Demo.Unity", "Mvc5Demo.Unity\Mvc5Demo.Unity.csproj", "{3F6901A2-49A0-4E2A-86BE-FE1289AD4A87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,11 +66,12 @@ Global
 		{15C5551F-42F7-43E6-84AD-70AA7298212F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15C5551F-42F7-43E6-84AD-70AA7298212F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15C5551F-42F7-43E6-84AD-70AA7298212F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F6901A2-49A0-4E2A-86BE-FE1289AD4A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F6901A2-49A0-4E2A-86BE-FE1289AD4A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F6901A2-49A0-4E2A-86BE-FE1289AD4A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F6901A2-49A0-4E2A-86BE-FE1289AD4A87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{E2A3164D-79B3-4772-BC44-7B5263DFE942} = {BE0818B8-968F-4784-86C0-FC196840F2C7}
 	EndGlobalSection
 EndGlobal

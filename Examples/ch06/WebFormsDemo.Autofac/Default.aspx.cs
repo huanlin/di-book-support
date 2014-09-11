@@ -11,7 +11,7 @@ namespace WebFormsDemo.Autofac
     public partial class Default : System.Web.UI.Page
     {
         // 此屬性會由 Autofac 負責注入相依物件。
-        public IHelloService HelloService { get; set; }
+        public IMessageService HelloService { get; set; }
 
         protected void Page_Load(object sender, EventArgs e)
         {

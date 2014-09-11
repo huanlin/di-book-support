@@ -15,7 +15,7 @@ namespace WcfDemo.ServerApp.Autofac.Infrastructure
         private static IContainer ConfigAutofac()
         {
             var builder = new ContainerBuilder();
-            builder.RegisterType<HelloService>().As<IHelloService>();
+            builder.RegisterType<MessageService>().As<IMessageService>();
             builder.RegisterType<Service1>();
 
             return builder.Build();

@@ -15,7 +15,7 @@ namespace WebFormsDemo.Autofac
         {
             ContainerBuilder builder = new ContainerBuilder();
 
-            builder.RegisterType<HelloService>().As<IHelloService>();
+            builder.RegisterType<MessageService>().As<IMessageService>();
 
             Application["Container"] = builder.Build(); // 把容器物件保存在共用變數裡
         }

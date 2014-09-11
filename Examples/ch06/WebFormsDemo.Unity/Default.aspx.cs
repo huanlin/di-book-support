@@ -11,7 +11,7 @@ namespace WebFormsDemo.Unity
     public partial class Default : System.Web.UI.Page
     {
         // 此屬性會由 UnityPageHandlerFactory 負責注入相依物件。
-        public IHelloService HelloService { get; set; }
+        public IMessageService HelloService { get; set; }
 
         #region Bastard Injection
         /*
