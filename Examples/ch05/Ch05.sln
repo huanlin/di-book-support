@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex02.DependencyResolver", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex02.DependencyResolver.Unity", "Ex02.DependencyResolver.Unity\Ex02.DependencyResolver.Unity.csproj", "{398173C1-3D98-491E-A4E0-06DE82ADB43E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex02.DependencyResolver.AutofacDemo", "Ex02.DependencyResolver.AutofacDemo\Ex02.DependencyResolver.AutofacDemo.csproj", "{CDA0E500-D14C-4F5B-825E-DB4062AC4DED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{398173C1-3D98-491E-A4E0-06DE82ADB43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{398173C1-3D98-491E-A4E0-06DE82ADB43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{398173C1-3D98-491E-A4E0-06DE82ADB43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA0E500-D14C-4F5B-825E-DB4062AC4DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA0E500-D14C-4F5B-825E-DB4062AC4DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA0E500-D14C-4F5B-825E-DB4062AC4DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA0E500-D14C-4F5B-825E-DB4062AC4DED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
