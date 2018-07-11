@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch07.Common", "Ch07.Common\Ch07.Common.csproj", "{C6898FDE-3D91-436D-BB4E-B996B9F5F913}"
 EndProject
@@ -35,6 +35,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex11.LifetimeDemo", "Ex11.LifetimeDemo\Ex11.LifetimeDemo.csproj", "{E14822EB-3DBA-44AD-8974-0E9AE5E8ABB4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex12.InterceptionDemo", "Ex12.InterceptionDemo\Ex12.InterceptionDemo.csproj", "{B929267D-1395-43DD-BFD2-88EEA9F7D07A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.ParameterOverrides", "Test.ParameterOverrides\Test.ParameterOverrides.csproj", "{83DF3644-B27E-4125-A948-7FA413F8F14D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,6 +96,10 @@ Global
 		{B929267D-1395-43DD-BFD2-88EEA9F7D07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B929267D-1395-43DD-BFD2-88EEA9F7D07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B929267D-1395-43DD-BFD2-88EEA9F7D07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DF3644-B27E-4125-A948-7FA413F8F14D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DF3644-B27E-4125-A948-7FA413F8F14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DF3644-B27E-4125-A948-7FA413F8F14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DF3644-B27E-4125-A948-7FA413F8F14D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
