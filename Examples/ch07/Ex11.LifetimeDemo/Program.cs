@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.Practices.Unity;
 using Ch07.Common.Contracts;
 using Ch07.Common.Services;
+using Unity.Lifetime;
+using Unity;
 
 namespace Ex11.LifetimeDemo
 {

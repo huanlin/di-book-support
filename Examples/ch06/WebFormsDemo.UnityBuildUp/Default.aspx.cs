@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Microsoft.Practices.Unity;
 using Examples.Common.Services;
+using Unity.Attributes;
 
 namespace WebFormsDemo.UnityBuildUp
 {

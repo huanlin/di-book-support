@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Web;
 using System.Web.UI;
+using Unity;
 
 namespace WebFormsDemo.UnityBuildUp.Infrastructure
 {
@@ -15,7 +16,7 @@ namespace WebFormsDemo.UnityBuildUp.Infrastructure
             Page page = base.GetHandler(context, requestType, virtualPath, path) as Page;
             if (page != null)
             {
-                var container = context.Application["Container"] as IUnityContainer;
+                var container = context.Application["Container"] as Unity.IUnityContainer;
 
                 container.BuildUp(page.GetType(), page);
             }

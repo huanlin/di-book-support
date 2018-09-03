@@ -1,45 +1,47 @@
 using System;
-using Microsoft.Practices.Unity;
-using Microsoft.Practices.Unity.Configuration;
-using Examples.Common.Services;
 
-namespace Mvc5Demo.Unity.App_Start
+using Unity;
+
+namespace Mvc5Demo.Unity
 {
     /// <summary>
-    /// 用來設定主要的 Unity 容器。
+    /// Specifies the Unity configuration for the main container.
     /// </summary>
-    public class UnityConfig
+    public static class UnityConfig
     {
-        #region Unity 容器
-        private static Lazy<IUnityContainer> container = new Lazy<IUnityContainer>(() =>
-        {
-            var container = new UnityContainer();
-            RegisterTypes(container);
-            return container;
-        });
+        #region Unity Container
+        private static Lazy<IUnityContainer> container =
+          new Lazy<IUnityContainer>(() =>
+          {
+              var container = new UnityContainer();
+              RegisterTypes(container);
+              return container;
+          });
 
         /// <summary>
-        /// 取得 Unity 容器的執行個體。
+        /// Configured Unity Container.
         /// </summary>
-        public static IUnityContainer GetConfiguredContainer()
-        {
-            return container.Value;
-        }
+        public static IUnityContainer Container => container.Value;
         #endregion
 
-        /// <summary>向 Unity 容器註冊型別對應。</summary>
-        /// <param name="container">欲設定的 Unity 容器。</param>
+        /// <summary>
+        /// Registers the type mappings with the Unity container.
+        /// </summary>
+        /// <param name="container">The unity container to configure.</param>
         /// <remarks>
-        ///   除非你想要改變預設行為，否則不需要自行註冊具象類別，例如 controllers 或 
-        ///   API controllers；因為無論是否預先註冊具象類別，Unity 都能自動解析它們。
+        /// There is no need to register concrete types such as controllers or
+        /// API controllers (unless you want to change the defaults), as Unity
+        /// allows resolving a concrete type even if it was not previously
+        /// registered.
         /// </remarks>
         public static void RegisterTypes(IUnityContainer container)
         {
-            // 如欲透過 web.config 來設定 Unity 容器，可恢復底下這行註解掉的程式碼。
-            // 別忘了還要引用命名空間 Microsoft.Practices.Unity.Configuration。
+            // NOTE: To load from web.config uncomment the line below.
+            // Make sure to add a Unity.Configuration to the using statements.
+            // container.LoadConfiguration();
 
-            // 在此註冊你的型別。
-            container.RegisterType<IMessageService, MessageService>();
+            // TODO: Register your type's mappings here.
+            // container.RegisterType<IProductRepository, ProductRepository>();
         }
     }
 }

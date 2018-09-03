@@ -1,34 +1,38 @@
 using System.Linq;
 using System.Web.Mvc;
-using Microsoft.Practices.Unity.Mvc;
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(LifetimeDemo.App_Start.UnityWebActivator), "Start")]
-[assembly: WebActivatorEx.ApplicationShutdownMethod(typeof(LifetimeDemo.App_Start.UnityWebActivator), "Shutdown")]
+using Unity.AspNet.Mvc;
 
-namespace LifetimeDemo.App_Start
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(Ex11.LifetimeDemo.UnityMvcActivator), nameof(Ex11.LifetimeDemo.UnityMvcActivator.Start))]
+[assembly: WebActivatorEx.ApplicationShutdownMethod(typeof(Ex11.LifetimeDemo.UnityMvcActivator), nameof(Ex11.LifetimeDemo.UnityMvcActivator.Shutdown))]
+
+namespace Ex11.LifetimeDemo
 {
-    /// <summary>Provides the bootstrapping for integrating Unity with ASP.NET MVC.</summary>
-    public static class UnityWebActivator
+    /// <summary>
+    /// Provides the bootstrapping for integrating Unity with ASP.NET MVC.
+    /// </summary>
+    public static class UnityMvcActivator
     {
-        /// <summary>Integrates Unity when the application starts.</summary>
+        /// <summary>
+        /// Integrates Unity when the application starts.
+        /// </summary>
         public static void Start() 
         {
-            var container = UnityConfig.GetConfiguredContainer();
-
             FilterProviders.Providers.Remove(FilterProviders.Providers.OfType<FilterAttributeFilterProvider>().First());
-            FilterProviders.Providers.Add(new UnityFilterAttributeFilterProvider(container));
+            FilterProviders.Providers.Add(new UnityFilterAttributeFilterProvider(UnityConfig.Container));
 
-            DependencyResolver.SetResolver(new UnityDependencyResolver(container));
+            DependencyResolver.SetResolver(new UnityDependencyResolver(UnityConfig.Container));
 
             // TODO: Uncomment if you want to use PerRequestLifetimeManager
             // Microsoft.Web.Infrastructure.DynamicModuleHelper.DynamicModuleUtility.RegisterModule(typeof(UnityPerRequestHttpModule));
         }
 
-        /// <summary>Disposes the Unity container when the application is shut down.</summary>
+        /// <summary>
+        /// Disposes the Unity container when the application is shut down.
+        /// </summary>
         public static void Shutdown()
         {
-            var container = UnityConfig.GetConfiguredContainer();
-            container.Dispose();
+            UnityConfig.Container.Dispose();
         }
     }
 }

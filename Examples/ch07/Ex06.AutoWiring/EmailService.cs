@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Practices.Unity;
 using Ch07.Common.Contracts;
+using Unity.Attributes;
 
 namespace Ex06.AutoWiring
 {

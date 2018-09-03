@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.Configuration;
 using Ch07.Common.Contracts;
+using Unity;
 
 namespace Ex03.ConfigFile
 {

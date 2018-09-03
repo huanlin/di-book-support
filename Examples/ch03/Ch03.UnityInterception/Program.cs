@@ -3,10 +3,15 @@ using Microsoft.Practices.Unity.InterceptionExtension;
 using System;
 using System.Collections.Generic;
 using Ch03.Common.Logging;
+using Unity.Interception.InterceptionBehaviors;
+using Unity.Interception.PolicyInjection.Pipeline;
+using Unity.Interception.ContainerIntegration;
+using Unity;
+using Unity.Interception.Interceptors.InstanceInterceptors.InterfaceInterception;
 
 namespace Ch03.UnityInterception
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {

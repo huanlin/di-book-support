@@ -6,6 +6,7 @@ using System.Web.Security;
 using System.Web.SessionState;
 using Microsoft.Practices.Unity;
 using Examples.Common.Services;
+using Unity;
 
 namespace WebFormsDemo.UnityBuildUp
 {

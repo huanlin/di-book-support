@@ -7,6 +7,11 @@ using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.InterceptionExtension;
 using Ch07.Common.Contracts;
 using Ch07.Common.Services;
+using Unity.Interception.InterceptionBehaviors;
+using Unity.Interception.PolicyInjection.Pipeline;
+using Unity.Interception.ContainerIntegration;
+using Unity.Interception.Interceptors.InstanceInterceptors.InterfaceInterception;
+using Unity;
 
 namespace Ex12.InterceptionDemo
 {
