@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Web.Http;
 using System.Web.Http.Dispatcher;
-using Microsoft.Practices.Unity;
 using Ch05.Common.Services;
 using Ex01.HttpControllerActivator.Unity.Infrastructue;
-using Ex01.HttpControllerActivator.Unity.Controllers;
+using Unity;
 
 namespace Ex01.HttpControllerActivator.Unity
 {

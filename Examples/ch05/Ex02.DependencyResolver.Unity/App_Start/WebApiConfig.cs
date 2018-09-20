@@ -1,10 +1,10 @@
-﻿using Ch05.Common.Services;
-using Ex02.DependencyResolver.Unity.Infrastructue;
-using Microsoft.Practices.Unity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Web.Http;
+using Unity;
+using Unity.Lifetime;
+using Ch05.Common.Services;
+using Ex02.DependencyResolver.Unity.Infrastructue;
+
 
 namespace Ex02.DependencyResolver.Unity
 {
