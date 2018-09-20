@@ -5,8 +5,8 @@
 
 ### 範例程式相關事項
 
-* 使用 Visual Studio 2013 Update 3。
-* 除非特別註明，否則各專案的目標 .NET Framework 都是 .NET 4.5（不是 .NET 4.5.2）。
+* 使用 Visual Studio 2017 v15.8.3。
+* 除非特別註明，否則各專案的目標 .NET Framework 都是 .NET 4.5。
 * 所有的方案（solution）都有啟用 NuGet Package Restore 功能，而且 package 檔案都沒有 check-in 至 github 版本庫。當你在 Visual Studio 中編譯範例程式時，NuGet 管理員會自動下載專案所需之套件。  
 
 
