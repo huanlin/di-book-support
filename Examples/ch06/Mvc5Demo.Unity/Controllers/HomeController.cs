@@ -1,9 +1,6 @@
-﻿using Examples.Common.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System;
 using System.Web.Mvc;
+using Examples.Common.Services;
 
 namespace Mvc5Demo.Unity.Controllers
 {
@@ -16,7 +13,6 @@ namespace Mvc5Demo.Unity.Controllers
             _messageService = msgSvc;
         }
 
-        // GET: Home
         public ActionResult Index()
         {
             return Content(_messageService.Hello("MVC5 with Unity!"));

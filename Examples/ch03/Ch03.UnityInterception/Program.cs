@@ -1,6 +1,4 @@
-﻿using Microsoft.Practices.Unity;
-using Microsoft.Practices.Unity.InterceptionExtension;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using Ch03.Common.Logging;
 using Unity.Interception.InterceptionBehaviors;

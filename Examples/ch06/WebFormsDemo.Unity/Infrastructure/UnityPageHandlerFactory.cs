@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
 using System.Web;
 using System.Web.UI;
-using Microsoft.Practices.Unity;
 using Unity;
 
 namespace WebFormsDemo.Unity.Infrastructure

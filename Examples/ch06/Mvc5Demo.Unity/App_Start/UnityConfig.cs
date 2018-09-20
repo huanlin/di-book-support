@@ -1,6 +1,7 @@
 using System;
 
 using Unity;
+using Examples.Common.Services;
 
 namespace Mvc5Demo.Unity
 {
@@ -41,7 +42,7 @@ namespace Mvc5Demo.Unity
             // container.LoadConfiguration();
 
             // TODO: Register your type's mappings here.
-            // container.RegisterType<IProductRepository, ProductRepository>();
+            container.RegisterType<IMessageService, MessageService>();
         }
     }
 }

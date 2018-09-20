@@ -1,7 +1,6 @@
 ﻿using System;
 using System.ServiceModel;
 using System.ServiceModel.Dispatcher;
-using Microsoft.Practices.Unity;
 using Unity;
 
 namespace WcfDemo.ServerApp.Unity.Infrastructure
