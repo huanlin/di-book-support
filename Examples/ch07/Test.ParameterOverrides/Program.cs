@@ -9,7 +9,7 @@ using Unity.Lifetime;
 
 namespace Test.ParameterOverrides
 {
-    class Program
+    static class Program
     {
         private static IUnityContainer _container;
 

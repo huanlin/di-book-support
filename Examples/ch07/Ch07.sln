@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ch07.Common", "Ch07.Common\Ch07.Common.csproj", "{C6898FDE-3D91-436D-BB4E-B996B9F5F913}"
 EndProject
@@ -17,8 +17,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CD289E
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex03.ConfigFile", "Ex03.ConfigFile\Ex03.ConfigFile.csproj", "{9B3AFD80-3C85-4C8F-BD9B-DA7361ACEA79}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex04.AutoRegisteration", "Ex04.AutoRegisteration\Ex04.AutoRegisteration.csproj", "{335FCB4D-F4DC-4C6B-A5DF-85F958D79B0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex05.AllClassesDemo", "Ex05.AllClassesDemo\Ex05.AllClassesDemo.csproj", "{678157F8-2BD1-4BED-B169-9B7A8590ADF1}"
 EndProject
@@ -37,6 +35,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex12.InterceptionDemo", "Ex12.InterceptionDemo\Ex12.InterceptionDemo.csproj", "{B929267D-1395-43DD-BFD2-88EEA9F7D07A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.ParameterOverrides", "Test.ParameterOverrides\Test.ParameterOverrides.csproj", "{83DF3644-B27E-4125-A948-7FA413F8F14D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ex04.AutoRegistration", "Ex04.AutoRegistration\Ex04.AutoRegistration.csproj", "{335FCB4D-F4DC-4C6B-A5DF-85F958D79B0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,10 +60,6 @@ Global
 		{9B3AFD80-3C85-4C8F-BD9B-DA7361ACEA79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B3AFD80-3C85-4C8F-BD9B-DA7361ACEA79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B3AFD80-3C85-4C8F-BD9B-DA7361ACEA79}.Release|Any CPU.Build.0 = Release|Any CPU
-		{335FCB4D-F4DC-4C6B-A5DF-85F958D79B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{335FCB4D-F4DC-4C6B-A5DF-85F958D79B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{335FCB4D-F4DC-4C6B-A5DF-85F958D79B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{335FCB4D-F4DC-4C6B-A5DF-85F958D79B0B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{678157F8-2BD1-4BED-B169-9B7A8590ADF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{678157F8-2BD1-4BED-B169-9B7A8590ADF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{678157F8-2BD1-4BED-B169-9B7A8590ADF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -100,8 +96,15 @@ Global
 		{83DF3644-B27E-4125-A948-7FA413F8F14D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83DF3644-B27E-4125-A948-7FA413F8F14D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83DF3644-B27E-4125-A948-7FA413F8F14D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{335FCB4D-F4DC-4C6B-A5DF-85F958D79B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{335FCB4D-F4DC-4C6B-A5DF-85F958D79B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{335FCB4D-F4DC-4C6B-A5DF-85F958D79B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{335FCB4D-F4DC-4C6B-A5DF-85F958D79B0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18935A25-EBD2-43CE-8D06-A2DF66C4D4FB}
 	EndGlobalSection
 EndGlobal

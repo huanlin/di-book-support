@@ -10,7 +10,7 @@ using Unity;
 
 namespace Ex08.DeferredResolution
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
